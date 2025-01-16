@@ -1,3 +1,8 @@
-flask
-requests
-pytest
+flask==2.3.3           # Lightweight web framework for RESTful APIs
+flask-cors==3.0.10     # Cross-Origin Resource Sharing (CORS) support for Flask
+cryptography==41.0.3   # Cryptographic library for key generation and encryption
+ecdsa==0.18.0          # Elliptic Curve Digital Signature Algorithm for signing
+requests==2.31.0       # HTTP requests for peer-to-peer communication
+pytest==7.4.0          # Testing framework for writing and running tests
+pytest-cov==4.1.0      # Code coverage tool for tests
+pydantic==2.3.0        # Data validation and settings management
